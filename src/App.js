@@ -540,6 +540,8 @@ function App() {
           </SkillsGrid>
 
         </StyledSkillsContainer>
+
+        <h6 style={{textAlign: "center", color: "white", margin: "0", paddingBottom: "0.5em"}}>Designed by Revathi</h6>
       </div>
     </>
   );

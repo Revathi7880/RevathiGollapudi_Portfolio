@@ -27,7 +27,7 @@ transform: translateY(0px);
 
 export const StyledSkillsContainer = styled.div`
 margin: 1em 1em 0 1em;
-padding: 5em 1em 12em 1em;
+padding: 5em 1em 15em 1em;
 display: grid;
 grid-template-columns: 10em 1fr ;
 gap: 2em;
@@ -45,7 +45,7 @@ export const StyledSkill = styled.img`
 margin: 0.1em 1.6rem 3.5em 1.6em;
 animation: ${slidInEffect} linear;
 animation-timeline: view();
-animation-range: entry 10% cover 35%;
+animation-range: entry 10% cover 20%;
 
 &:hover {
 transform: scale(1.15);

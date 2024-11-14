@@ -17,9 +17,9 @@ opacity: 0.7;
 scale: 0.7;
 transform: translateX(-15em);
 }
-90% {
-opacity: 0.7;
-scale: 0.8;
+97% {
+opacity: 0.4;
+scale: 0.5;
 transform: translateX(-5em);
 }
 100% {
@@ -49,7 +49,7 @@ padding: 0;
 margin: 0 0 2em 0;
 animation: ${slidInEffect} ease-in;
 animation-timeline: view();
-animation-range: entry 10% cover 40%;
+animation-range: entry 10% cover 30%;
 box-shadow: 0 0.5em 0.5em 0 rgba(19, 143, 182, 0.20), 0 0.15em 1em 0 rgba(19, 143, 182, 0.50);
 
  &:hover {
