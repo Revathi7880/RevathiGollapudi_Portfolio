@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css",
-    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.f3d180f4.js",
+    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.8da15b07.js",
     "static/media/machine_learning.png": "/RevathiGollapudi_Portfolio/static/media/machine_learning.9137a0db355e8f8ceb17.png",
     "static/media/computer_vision.png": "/RevathiGollapudi_Portfolio/static/media/computer_vision.fa808369ab7e5fd72620.png",
     "static/media/normalization.png": "/RevathiGollapudi_Portfolio/static/media/normalization.aeac2707ad7fef963a9d.png",
@@ -24,13 +24,17 @@
     "static/media/github.png": "/RevathiGollapudi_Portfolio/static/media/github.553c66159c5672f25df6.png",
     "static/media/c-.png": "/RevathiGollapudi_Portfolio/static/media/c-.24a8f93854ab092f17a7.png",
     "static/media/agile.png": "/RevathiGollapudi_Portfolio/static/media/agile.6e36c51a42aa286ec6c4.png",
+    "static/media/natural-language-processing (1).png": "/RevathiGollapudi_Portfolio/static/media/natural-language-processing (1).a157defc09de6a7b094e.png",
     "static/media/linkedin.png": "/RevathiGollapudi_Portfolio/static/media/linkedin.d21b834035baa551e886.png",
     "static/media/sql-server.png": "/RevathiGollapudi_Portfolio/static/media/sql-server.86cdb54cc5fc9c392ebd.png",
     "static/media/programming.png": "/RevathiGollapudi_Portfolio/static/media/programming.338617e0a1fdf73bac71.png",
     "static/media/office.png": "/RevathiGollapudi_Portfolio/static/media/office.3bdf661dee4de9215fd3.png",
     "static/media/Gandhi_Institute_of_Technology_and_Management_logo.jpg": "/RevathiGollapudi_Portfolio/static/media/Gandhi_Institute_of_Technology_and_Management_logo.7f39777de12ba3e8077e.jpg",
+    "static/media/translate.png": "/RevathiGollapudi_Portfolio/static/media/translate.2127d3d9e5a7a8611df2.png",
     "static/media/social.png": "/RevathiGollapudi_Portfolio/static/media/social.d1a3c1e59ca82dbdf815.png",
+    "static/media/data-cleaning.png": "/RevathiGollapudi_Portfolio/static/media/data-cleaning.5c1ecc1e5b44269c5013.png",
     "static/media/api.png": "/RevathiGollapudi_Portfolio/static/media/api.b4448407872dc2a02104.png",
+    "static/media/django.png": "/RevathiGollapudi_Portfolio/static/media/django.559d0c6161a6fb950f02.png",
     "static/media/html.png": "/RevathiGollapudi_Portfolio/static/media/html.6e930594286d8afe4c79.png",
     "static/media/java-script.png": "/RevathiGollapudi_Portfolio/static/media/java-script.78206ba65e01c7d57080.png",
     "static/media/azure.png": "/RevathiGollapudi_Portfolio/static/media/azure.5d1a8fab844d3535f56e.png",
@@ -38,10 +42,10 @@
     "static/media/website.png": "/RevathiGollapudi_Portfolio/static/media/website.9686c01833bd92ba4ff3.png",
     "index.html": "/RevathiGollapudi_Portfolio/index.html",
     "main.6e8b1f8e.css.map": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css.map",
-    "main.f3d180f4.js.map": "/RevathiGollapudi_Portfolio/static/js/main.f3d180f4.js.map"
+    "main.8da15b07.js.map": "/RevathiGollapudi_Portfolio/static/js/main.8da15b07.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8b1f8e.css",
-    "static/js/main.f3d180f4.js"
+    "static/js/main.8da15b07.js"
   ]
 }
