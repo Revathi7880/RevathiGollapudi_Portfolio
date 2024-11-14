@@ -52,6 +52,10 @@ import linkedin from './images/linkedin.png';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import resume from './images/cv.png';
+import django from './images/django.png';
+import eda from "./images/data-cleaning.png";
+import translate from './images/translate.png';
+import nlp from './images/natural-language-processing (1).png'
 
 
 function App() {
@@ -314,13 +318,13 @@ function App() {
                 <StyledFront>
                   <StyledImageCaption>
                     <StyledDot className='dot'></StyledDot>
-                    <StyledProjectHeading>Quiz Play</StyledProjectHeading>
-                    <p style={{ color: "white", marginBottom: "1.5em" }}> Interactive quiz platform with real-time feedback.</p>
-                    <Row style={{ marginBottom: "3.5em" }}>
-                      <Col><FontAwesomeIcon icon={faHtml5} size="4x" style={{ color: '#E34F26' }} /></Col>
-                      <Col><FontAwesomeIcon icon={faCss3Alt} size="4x" style={{ color: '#1572B6' }} /></Col>
-                      <Col><FontAwesomeIcon icon={faJs} size="4x" style={{ color: '#F7DF1E' }} /></Col>
-                      <Col><Image src={API} style={{ width: "4em", height: "3.8em" }} /></Col>
+                    <StyledProjectHeading>Churn Prediction</StyledProjectHeading>
+                    <p style={{ color: "white", marginBottom: "1.5em" }}>Predicting Customer Retention</p>
+                    <Row style={{ marginBottom: "2.4em" }}>
+                      <Col><Image src={machineLearning} style={{ width: "4em", height: "3.8em" }} /></Col>
+                      <Col><Image src={python} style={{ width: "3em", height: "3.5em" }} /></Col>
+                      <Col><Image src={eda} style={{ width: "4em", height: "3.8em" }} /></Col>
+                      <Col><Image src={django} style={{ width: "4em", height: "3.8em" }} /></Col>
                     </Row>
                     <FontAwesomeIcon icon={faSync} size="1x" style={{ color: '#2297a6', marginRight: "0.4em" }} />
                     <span style={{ color: "white" }}>View Project</span>
@@ -333,13 +337,13 @@ function App() {
                       <CardText>
                         <ul>
                           <li style={{ fontSize: "1em", marginBottom: "0.7em" }}>
-                            <b>Built a fully responsive quiz platform</b> with a user-friendly interface, optimized for seamless access across various devices.
+                            <b>Developed a comprehensive churn prediction model</b> by evaluating six machine learning algorithms to identify the most accurate solution..
                           </li>
                           <li style={{ fontSize: "1em", marginBottom: "0.7em" }}>
-                            <b>Enhanced user engagement</b> significantly with real-time feedback and interactive features, encouraging active participation.
+                            <b>Optimized model performance</b> through detailed analysis, selecting the highest-accuracy model for deployment.
                           </li>
                           <li style={{ fontSize: "1em" }}>
-                            <b>Integrated a robust API-driven backend</b> to fetch quiz questions and answers from a centralized database, ensuring smooth data flow.
+                            <b>Enabled proactive retention strategies</b> by integrating the model into business workflows, delivering data-driven insights for customer retention.
                           </li>
                         </ul>
                       </CardText>
@@ -354,13 +358,13 @@ function App() {
                 <StyledFront>
                   <StyledImageCaption>
                     <StyledDot className='dot'></StyledDot>
-                    <StyledProjectHeading>Quiz Play</StyledProjectHeading>
-                    <p style={{ color: "white", marginBottom: "1.5em" }}> Interactive quiz platform with real-time feedback.</p>
-                    <Row style={{ marginBottom: "3.5em" }}>
-                      <Col><FontAwesomeIcon icon={faHtml5} size="4x" style={{ color: '#E34F26' }} /></Col>
-                      <Col><FontAwesomeIcon icon={faCss3Alt} size="4x" style={{ color: '#1572B6' }} /></Col>
-                      <Col><FontAwesomeIcon icon={faJs} size="4x" style={{ color: '#F7DF1E' }} /></Col>
-                      <Col><Image src={API} style={{ width: "4em", height: "3.8em" }} /></Col>
+                    <StyledProjectHeading>Language Translator</StyledProjectHeading>
+                    <p style={{ color: "white", marginBottom: "1.5em" }}> English-to-French.</p>
+                    <Row style={{ marginBottom: "2.2em" }}>
+                      <Col><Image src={deepLearning} style={{ width: "4em", height: "3.8em" }} /></Col>
+                      <Col><Image src={eda} style={{ width: "4em", height: "3.8em" }} /></Col>
+                      <Col><Image src={translate} style={{ width: "3em", height: "3.8em" }} /></Col>
+                      <Col><Image src={nlp} style={{ width: "4em", height: "3.8em" }} /></Col>
                     </Row>
                     <FontAwesomeIcon icon={faSync} size="1x" style={{ color: '#2297a6', marginRight: "0.4em" }} />
                     <span style={{ color: "white" }}>View Project</span>
@@ -373,13 +377,13 @@ function App() {
                       <CardText>
                         <ul>
                           <li style={{ fontSize: "1em", marginBottom: "0.7em" }}>
-                            <b>Built a fully responsive quiz platform</b> with a user-friendly interface, optimized for seamless access across various devices.
+                            <b>Optimized Model Selection</b> Evaluated various Transformer models for accurate English-to-French translation.
                           </li>
                           <li style={{ fontSize: "1em", marginBottom: "0.7em" }}>
-                            <b>Enhanced user engagement</b> significantly with real-time feedback and interactive features, encouraging active participation.
+                            <b>Speech and Text Processing</b> Integrated audio-to-text conversion to support both spoken and written English inputs..
                           </li>
                           <li style={{ fontSize: "1em" }}>
-                            <b>Integrated a robust API-driven backend</b> to fetch quiz questions and answers from a centralized database, ensuring smooth data flow.
+                            <b>Data Analysis</b> Used data visualization to refine model performance by analyzing language patterns.
                           </li>
                         </ul>
                       </CardText>
@@ -394,11 +398,11 @@ function App() {
                 <StyledFront>
                   <StyledImageCaption>
                     <StyledDot className='dot'></StyledDot>
-                    <StyledProjectHeading>Quiz Play</StyledProjectHeading>
-                    <p style={{ color: "white", marginBottom: "1.5em" }}> Interactive quiz platform with real-time feedback.</p>
-                    <Row style={{ marginBottom: "3.5em" }}>
-                      <Col><FontAwesomeIcon icon={faHtml5} size="4x" style={{ color: '#E34F26' }} /></Col>
-                      <Col><FontAwesomeIcon icon={faCss3Alt} size="4x" style={{ color: '#1572B6' }} /></Col>
+                    <StyledProjectHeading>HealthCart Hub</StyledProjectHeading>
+                    <p style={{ color: "white", marginBottom: "1.5em" }}>Reliable Online Platform for Medical Supplies</p>
+                    <Row style={{ marginBottom: "2.2em" }}>
+                      <Col><Image src={react} style={{ width: "4em", height: "3.8em" }} /></Col>
+                      <Col><Image src={html} style={{ width: "4em", height: "3.8em" }} /></Col>
                       <Col><FontAwesomeIcon icon={faJs} size="4x" style={{ color: '#F7DF1E' }} /></Col>
                       <Col><Image src={API} style={{ width: "4em", height: "3.8em" }} /></Col>
                     </Row>
@@ -413,13 +417,13 @@ function App() {
                       <CardText>
                         <ul>
                           <li style={{ fontSize: "1em", marginBottom: "0.7em" }}>
-                            <b>Built a fully responsive quiz platform</b> with a user-friendly interface, optimized for seamless access across various devices.
+                            <b>Dynamic Product Catalog</b> Displayed a wide range of medical products with detailed information, ensuring easy browsing and searching.
                           </li>
                           <li style={{ fontSize: "1em", marginBottom: "0.7em" }}>
-                            <b>Enhanced user engagement</b> significantly with real-time feedback and interactive features, encouraging active participation.
+                            <b>User-Friendly Shopping Cart</b> Enabled efficient cart management with real-time updates and order summary..
                           </li>
                           <li style={{ fontSize: "1em" }}>
-                            <b>Integrated a robust API-driven backend</b> to fetch quiz questions and answers from a centralized database, ensuring smooth data flow.
+                            <b>Personalized User Experience</b> Implemented features like product recommendations and search filters to enhance user engagement..
                           </li>
                         </ul>
                       </CardText>
