@@ -545,7 +545,7 @@ function App() {
 
         </StyledSkillsContainer>
 
-        <h6 style={{textAlign: "center", color: "white", margin: "0", paddingBottom: "0.5em"}}>Designed by Revathi</h6>
+        <h6 style={{textAlign: "center", color: "white", margin: "0", paddingBottom: "0.7em"}}>Designed by Revathi</h6>
       </div>
     </>
   );
