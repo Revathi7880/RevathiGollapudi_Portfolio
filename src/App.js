@@ -513,7 +513,7 @@ function App() {
             <Row>
               {[python, html, css, react, sqlServer].map((picture, index) => (
                 <Col>
-                  <StyledSkill key={index} style={{ width: "5rem", height: "4.5rem" }} src={picture} />
+                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
                 </Col>
               ))}
             </Row>
@@ -521,7 +521,7 @@ function App() {
             <Row>
               {[nodeJS, sequilize, dotNet, tableau, bootstrap].map((picture, index) => (
                 <Col>
-                  <StyledSkill key={index} style={{ width: "5rem", height: "4.5rem" }} src={picture} />
+                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
                 </Col>
               ))}
             </Row>
@@ -529,7 +529,7 @@ function App() {
             <Row>
               {[gitVC, api, postman, machineLearning, deepLearning].map((picture, index) => (
                 <Col>
-                  <StyledSkill key={index} style={{ width: "5rem", height: "4.5rem" }} src={picture} />
+                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
                 </Col>
               ))}
             </Row>
@@ -537,7 +537,7 @@ function App() {
             <Row>
               {[oop, sharepoint, agile, azure, mssql].map((picture, index) => (
                 <Col>
-                  <StyledSkill key={index} style={{ width: "5rem", height: "4.5rem" }} src={picture} />
+                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
                 </Col>
               ))}
             </Row>
