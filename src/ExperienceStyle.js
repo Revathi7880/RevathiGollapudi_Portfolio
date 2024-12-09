@@ -4,18 +4,18 @@ import styled, {keyframes} from "styled-components";
 const slidInEffect = keyframes`
 0% {
 opacity: 0.4;
-scale: 0.4;
+// scale: 0.4;
 transform: translateX(-100em);
 }
 80% {
 opacity: 0.6;
-scale: 0.7;
+// scale: 0.7;
 transform: translateX(-15em);
 }
 
 100% {
 opacity: 1;
-scale: 1;
+// scale: 1;
 transform: translateX(0px);
 }
 `;

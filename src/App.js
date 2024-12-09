@@ -7,7 +7,6 @@ import { StyledDot, StyledImageCaption, StyledImageDiv, StyledLine, StyledPictur
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons';
 import { faRepeat, faCircleInfo, faAngleDoubleRight, faEye, faSync, faProjectDiagram, faCogs, faShareAlt, faLink } from '@fortawesome/free-solid-svg-icons';
-// import deepLearning from './images/deep_learning2.jpg';
 import openCV from './images/open_cv.png'
 import dataVisualization from './images/data_visualization.jpg'
 import computerVision from './images/computer_vision.png'
@@ -65,7 +64,7 @@ function App() {
       <div style={{ backgroundColor: "#272222" }}>
         <StyledAboutContainer id="index">
           <Row>
-            <StylesImageCol>
+            <StylesImageCol  md={4} sm={12} className="text-center mb-4">
               <StyledImageWrapper>
                 <StyledImage src={profile_picture} roundedCircle />
               </StyledImageWrapper>
@@ -106,6 +105,7 @@ function App() {
             </StylesNavCol>
           </Row>
         </StyledAboutContainer>
+
 
         <StyledExperienceContainer id="experience">
           <ExperienceGrid>
@@ -545,7 +545,7 @@ function App() {
 
         </StyledSkillsContainer>
 
-        <h6 style={{textAlign: "center", color: "white", margin: "0", paddingBottom: "0.7em"}}>Designed by Revathi</h6>
+        <h6 style={{ textAlign: "center", color: "white", margin: "0", paddingBottom: "0.7em" }}>Designed by Revathi</h6>
       </div>
     </>
   );
