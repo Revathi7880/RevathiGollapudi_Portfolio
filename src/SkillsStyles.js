@@ -21,7 +21,7 @@ grid-template-columns: 10em 1fr ;
 gap: 2em;
 align-items: start;
 
-@media (max-width: 1050px) {
+@media (max-width: 1470px) {
   padding: 2em 1em;
   grid-template-columns: 1fr;
 }
