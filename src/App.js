@@ -15,7 +15,7 @@ import sql from './images/sql.png';
 import normalization from './images/normalization.png';
 import indexing from './images/indexing.png'
 import databaseDesign from './images/database_design.png';
-import { SkillsGrid, StyledSkill, StyledSkillsContainer } from './SkillsStyles';
+import { SkillsGrid, StyleContainer, StyledHeadingSkills, StyledSkill, StyledSkillsContainer } from './SkillsStyles';
 import react from './images/skills/science.png';
 import python from './images/skills/python.png';
 import c from './images/skills/letter-c.png';
@@ -64,12 +64,12 @@ function App() {
       <div style={{ backgroundColor: "#272222" }}>
         <StyledAboutContainer id="index">
           <Row>
-            <StylesImageCol  md={4} sm={12} className="text-center mb-4">
+            <StylesImageCol md={4} sm={12} className="text-center mb-4">
               <StyledImageWrapper>
                 <StyledImage src={profile_picture} roundedCircle />
               </StyledImageWrapper>
             </StylesImageCol>
-            
+
 
             <StylesAboutCol>
               <Table>
@@ -90,10 +90,10 @@ function App() {
                   </tr>
                 </tbody>
               </Table>
-              <Col style={{marginLeft: "0.5em"}}>
-              <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin}/></a>
-              <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail}/></a>
-              <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github}/></a>
+              <Col style={{ marginLeft: "0.5em" }}>
+                <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
+                <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail} /></a>
+                <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
               </Col>
             </StylesAboutCol>
 
@@ -187,7 +187,7 @@ function App() {
               </CardBody>
             </StyledCard>
           </ExperienceGrid>
-          <StyledHeading style={{ marginTop: "0.2em" }}>Experience</StyledHeading>
+          <StyledHeading style={{ marginTop: "0.2em" }} id="experienceHeading">Experience</StyledHeading>
         </StyledExperienceContainer>
 
         <StyledProjectContainer id="projects">
@@ -432,19 +432,18 @@ function App() {
                 </StyledBack>
               </StyledImageDiv>
             </ProjectContainer1>
+
           </ProjectsGrid>
         </StyledProjectContainer>
 
         <StyledEducationContainer id='education'>
           <EducationGrid>
-
             <StyledEducationDiv left="0">
               <StyledCollege style={{ width: "3.5rem", height: "3.5rem" }} src={ub} />
               <StyledEducationCard bg="dark" text="white" style={{ borderRadius: '1em' }}>
                 <CardHeader as="h4" style={{ borderBottom: "3px solid #138fb633" }}>University at Buffalo</CardHeader>
                 <CardBody>
                   <CardTitle as="h5">Master of Science</CardTitle>
-                  {/* <CardTitle as="h6">Computer Science</CardTitle> */}
                   <CardText>
                     <ul>
                       <li><text>Computer Science</text></li>
@@ -453,7 +452,6 @@ function App() {
                     </ul>
                   </CardText>
                 </CardBody>
-                {/* <StyledSpanLeft right="-1em"></StyledSpanLeft> */}
               </StyledEducationCard>
             </StyledEducationDiv>
 
@@ -471,7 +469,6 @@ function App() {
                     </ul>
                   </CardText>
                 </CardBody>
-                {/* <StyledSpanRight left="-1em"></StyledSpanRight> */}
               </StyledEducationCard>
             </StyledEducationDiv>
 
@@ -489,58 +486,45 @@ function App() {
                     </ul>
                   </CardText>
                 </CardBody>
-                {/* <StyledSpanLeft right="-1em"></StyledSpanLeft> */}
               </StyledEducationCard>
             </StyledEducationDiv>
-
-
           </EducationGrid>
-          <StyledHeading>EDUCATION</StyledHeading>
+          <StyledHeading id="educationHeading">EDUCATION</StyledHeading>
         </StyledEducationContainer>
 
         <StyledSkillsContainer id="skills">
-          <StyledHeading style={{ marginTop: "0.3em" }}>SKILLS</StyledHeading>
+          <StyledHeadingSkills style={{ marginTop: "0.3em" }}>SKILLS</StyledHeadingSkills>
           <SkillsGrid>
-
-            <Row>
+            <StyleContainer>
               {[c, cSharp, cplus, java, javaScript].map((picture, index) => (
-                <Col>
-                  <StyledSkill key={index} style={{ width: "5rem", height: "4.5rem" }} src={picture} />
-                </Col>
+                <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
               ))}
-            </Row>
+            </StyleContainer>
 
-            <Row>
+            <StyleContainer>
               {[python, html, css, react, sqlServer].map((picture, index) => (
-                <Col>
-                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
-                </Col>
+                <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
               ))}
-            </Row>
+            </StyleContainer>
 
-            <Row>
+            <StyleContainer>
               {[nodeJS, sequilize, dotNet, tableau, bootstrap].map((picture, index) => (
-                <Col>
-                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
-                </Col>
+                <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
               ))}
-            </Row>
+            </StyleContainer>
 
-            <Row>
+            <StyleContainer>
               {[gitVC, api, postman, machineLearning, deepLearning].map((picture, index) => (
-                <Col>
-                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
-                </Col>
+                <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
               ))}
-            </Row>
+            </StyleContainer>
 
-            <Row>
+            <StyleContainer>
               {[oop, sharepoint, agile, azure, mssql].map((picture, index) => (
-                <Col>
-                  <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
-                </Col>
+                <StyledSkill key={index} style={{ width: "4.5rem", height: "4.5rem" }} src={picture} />
               ))}
-            </Row>
+            </StyleContainer>
+
           </SkillsGrid>
 
         </StyledSkillsContainer>

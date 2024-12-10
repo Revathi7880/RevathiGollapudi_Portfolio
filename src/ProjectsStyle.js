@@ -66,6 +66,11 @@ display: grid;
 grid-template-columns: 10em 1fr;
 gap: 2em;
 align-items: start;
+
+@media (max-width: 1470px) {
+  padding: 2em 1em;
+  grid-template-columns: 1fr;
+}
 `;
 
 export const ProjectsGrid = styled.div`
@@ -73,7 +78,25 @@ export const ProjectsGrid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
   gap: 2em;
+
+  @media (max-width: 1470px) {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    gap: 1em;
+    place-items: center;
+  }
 `;
+
+// export const ProjectsGrid = styled.div`
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+//   gap: 2em;
+//   margin-top: 2em;
+// `;
 
 
 export const StyledHeading = styled.h1`
@@ -88,6 +111,30 @@ export const StyledHeading = styled.h1`
   -webkit-text-stroke-width: 0.12em;
   -webkit-text-stroke-color: #1e1b1b;
   text-shadow: 2px 2px 20px rgba(19, 143, 182, 0.5);
+
+  @media (max-width: 1470px) {
+    font-size: 6em;
+    transform: none;
+    margin-bottom: 0.5em;
+  }
+
+    @media (max-width: 1100px) {
+    font-size: 4em;
+    transform: none;
+    margin-bottom: 0.5em;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 3em;
+    transform: none;
+    margin-bottom: 0.5em;
+  }
+
+    @media (max-width: 420px) {
+    font-size: 2em;
+    transform: none;
+    margin-bottom: 0.5em;
+  }
 `;
 
 export const Word = styled.span`

@@ -32,6 +32,16 @@ display: grid;
 grid-template-columns: 1fr 10em;
 gap: 2em;
 align-items: start;
+
+@media (max-width: 1470px) {
+  padding: 2em 1em;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+
+  #educationHeading {
+    order: -1;
+  }
+}
 `;
 
 export const EducationGrid = styled.div`
@@ -58,6 +68,27 @@ export const EducationGrid = styled.div`
    animation-range: entry 20% cover 70%;
    box-shadow: 0 0.5em 0.5em 0 rgba(19, 143, 182, 0.20), 0 0.15em 0.3em 0 rgba(19, 143, 182, 0.50);
    }
+
+   @media (max-width: 900px) 
+   {
+   &:after {
+   left: 11.5em
+   }
+   }
+
+  @media (max-width: 650px) 
+   {
+   &:after {
+   left: 3em
+   }
+   }
+
+  @media (max-width: 490px) 
+   {
+   &:after {
+   left: 0em
+   }
+   }
 `;
 
 export const StyledEducationDiv = styled.div`
@@ -69,6 +100,27 @@ export const StyledEducationDiv = styled.div`
   animation: ${slidInEffect} ease-in;
   animation-timeline: view();
   animation-range: entry 10% cover 30%;
+
+  @media (max-width: 900px) 
+  {
+    left: 12em;
+    margin-top: 0em;
+    width: 70%;
+  }
+
+  @media (max-width: 650px) 
+  {
+    left: 4em;
+    margin-top: 0em;
+    width: 90%;
+  }
+
+  @media (max-width: 490px) 
+  {
+    left: 0em;
+    margin-top: 0em;
+    width: 100%;
+  }
 `;
 
 export const StyledEducationCard = styled(Card)`
@@ -83,6 +135,15 @@ export const StyledEducationCard = styled(Card)`
  }
 `;
 
+// export const StyledCollege = styled.img`
+// position : absolute;
+//   border-radius: 50%;
+//   right: -1.75em;
+//   top: 5em;
+//   z-index: 1;
+//   left: ${(props) => props.left ? props.left : 'auto'};
+// `;
+
 export const StyledCollege = styled.img`
   position : absolute;
   border-radius: 50%;
@@ -90,6 +151,21 @@ export const StyledCollege = styled.img`
   top: 5em;
   z-index: 1;
   left: ${(props) => props.left ? props.left : 'auto'};
+
+  @media (max-width: 900px) 
+  {
+    left: -2.5em;
+  }
+
+  @media (max-width: 650px) 
+  {
+    left: -3em;
+  }
+
+  @media (max-width: 650px) 
+  {
+    left: -2em;
+  }
 `;
 
 export const StyledSpanLeft = styled.span`

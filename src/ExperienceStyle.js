@@ -4,18 +4,15 @@ import styled, {keyframes} from "styled-components";
 const slidInEffect = keyframes`
 0% {
 opacity: 0.4;
-// scale: 0.4;
 transform: translateX(-100em);
 }
 80% {
 opacity: 0.6;
-// scale: 0.7;
 transform: translateX(-15em);
 }
 
 100% {
 opacity: 1;
-// scale: 1;
 transform: translateX(0px);
 }
 `;
@@ -27,6 +24,15 @@ display: grid;
 grid-template-columns: 1fr 10em;
 gap: 2em;
 align-items: start;
+
+@media (max-width: 1470px) {
+  padding: 2em 1em;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+
+  #experienceHeading {
+    order: -1;
+  }
 `;
 
 export const ExperienceGrid = styled.div`
