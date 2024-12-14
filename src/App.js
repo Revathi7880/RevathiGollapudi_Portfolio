@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Table, Card, CardHeader, CardBody, CardTitle, CardText, Image} from 'react-bootstrap';
+import { Col, Row, Table, Card, CardHeader, CardBody, CardTitle, CardText, Image, Button} from 'react-bootstrap';
 import profile_picture from './images/profile_picture.png'
 import { ProjectsCircle, ExperienceCircle, SkillsCircle, StyledAboutContainer, StylesImageCol, StyledImage, StylesAboutCol, StyledImageWrapper, StyledTableCell, StylesNavCol, EducationCircle, Link } from './IndexStyles';
 import { StyledExperienceContainer, StyledCard, ExperienceGrid } from './ExperienceStyle';
@@ -91,10 +91,14 @@ function App() {
                   </tr>
                 </tbody>
               </Table>
-              <Col style={{ marginLeft: "0.5em" }}>
+              {/* <Col>
+              <a href='https://drive.google.com/file/d/1VPKy04i61bpzc0UuO5Trkuf8BY3G5qED/view?usp=drive_link' style={{ textDecoration: "none", padding: "0.2em 0.7em 0.2em 0.7em", backgroundColor: "#272222", fontSize: "1.2em", marginLeft: "0.4em",}} target="_blank" rel="noopener noreferrer">Resume/CV</a>
+              </Col> */}
+              <Col style={{ marginLeft: "0.5em", marginTop: "1em"  }}>
                 <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
                 <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail} /></a>
                 <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
+                <a href='https://drive.google.com/file/d/1VPKy04i61bpzc0UuO5Trkuf8BY3G5qED/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
               </Col>
             </StylesAboutCol>
 
