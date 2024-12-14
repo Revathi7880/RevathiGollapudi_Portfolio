@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css",
-    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.e9b47a2d.js",
+    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.bfc2060e.js",
     "static/media/machine_learning.png": "/RevathiGollapudi_Portfolio/static/media/machine_learning.9137a0db355e8f8ceb17.png",
     "static/media/computer_vision.png": "/RevathiGollapudi_Portfolio/static/media/computer_vision.fa808369ab7e5fd72620.png",
     "static/media/normalization.png": "/RevathiGollapudi_Portfolio/static/media/normalization.aeac2707ad7fef963a9d.png",
@@ -9,6 +9,7 @@
     "static/media/deep-learning.png": "/RevathiGollapudi_Portfolio/static/media/deep-learning.a58f82c384db3e7e7dd0.png",
     "static/media/profile_picture.png": "/RevathiGollapudi_Portfolio/static/media/profile_picture.e7e41dba2920ea24f294.png",
     "static/media/mssql.png": "/RevathiGollapudi_Portfolio/static/media/mssql.a4ba4125aadc50241c26.png",
+    "static/media/copyright.png": "/RevathiGollapudi_Portfolio/static/media/copyright.5efd240c6002e5db20b1.png",
     "static/media/data_visualization.jpg": "/RevathiGollapudi_Portfolio/static/media/data_visualization.35f60a6190a331a41db1.jpg",
     "static/media/biit.png": "/RevathiGollapudi_Portfolio/static/media/biit.dc49de25f841495633d4.png",
     "static/media/science.png": "/RevathiGollapudi_Portfolio/static/media/science.8fa476a9a466108da157.png",
@@ -40,12 +41,13 @@
     "static/media/azure.png": "/RevathiGollapudi_Portfolio/static/media/azure.5d1a8fab844d3535f56e.png",
     "static/media/bootstrap.png": "/RevathiGollapudi_Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/website.png": "/RevathiGollapudi_Portfolio/static/media/website.9686c01833bd92ba4ff3.png",
+    "static/media/day.png": "/RevathiGollapudi_Portfolio/static/media/day.e37715af149aec3e7713.png",
     "index.html": "/RevathiGollapudi_Portfolio/index.html",
     "main.6e8b1f8e.css.map": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css.map",
-    "main.e9b47a2d.js.map": "/RevathiGollapudi_Portfolio/static/js/main.e9b47a2d.js.map"
+    "main.bfc2060e.js.map": "/RevathiGollapudi_Portfolio/static/js/main.bfc2060e.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8b1f8e.css",
-    "static/js/main.e9b47a2d.js"
+    "static/js/main.bfc2060e.js"
   ]
 }
