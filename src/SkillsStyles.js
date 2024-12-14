@@ -14,8 +14,8 @@ transform: translateX(0em);
 
 
 export const StyledSkillsContainer = styled.div`
-margin: 1em 1em 10em 1em;
-padding: 5em 1em 15em 1em;
+margin: 1em 1em 0em 1em;
+padding: 5em 1em 10em 1em;
 display: grid;
 grid-template-columns: 10em 1fr ;
 gap: 2em;

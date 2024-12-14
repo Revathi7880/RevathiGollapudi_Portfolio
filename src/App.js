@@ -1,12 +1,12 @@
-import React, { useRef, useEffect } from 'react';
-import { Navbar, Container, NavbarBrand, NavbarToggle, NavLink, Nav, Col, Row, Table, Card, CardHeader, CardBody, CardTitle, CardText, Image, ToggleButton } from 'react-bootstrap';
+import React from 'react';
+import { Col, Row, Table, Card, CardHeader, CardBody, CardTitle, CardText, Image} from 'react-bootstrap';
 import profile_picture from './images/profile_picture.png'
-import { ProjectsCircle, ExperienceCircle, SkillsCircle, StyledAboutContainer, StylesImageCol, StyledImage, StylesAboutCol, StyledImageWrapper, StyledTableCell, StylesNavCol, EducationCircle, Bubble, NavigationCircle, Link } from './IndexStyles';
+import { ProjectsCircle, ExperienceCircle, SkillsCircle, StyledAboutContainer, StylesImageCol, StyledImage, StylesAboutCol, StyledImageWrapper, StyledTableCell, StylesNavCol, EducationCircle, Link } from './IndexStyles';
 import { StyledExperienceContainer, StyledCard, ExperienceGrid } from './ExperienceStyle';
-import { StyledDot, StyledImageCaption, StyledImageDiv, StyledLine, StyledPicture, StyledProjectContainer, ProjectContainer1, ProjectContainer2, ProjectContainer3, StyledFront, StyledBack, StyledProjectHeading, StyledHoverIcon, StyledWrapper, StyledHeading, ProjectsGrid, Word } from './ProjectsStyle';
+import { StyledDot, StyledImageCaption, StyledImageDiv, StyledProjectContainer, ProjectContainer1, ProjectContainer2, ProjectContainer3, StyledFront, StyledBack, StyledProjectHeading, StyledHeading, ProjectsGrid } from './ProjectsStyle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs } from '@fortawesome/free-brands-svg-icons';
-import { faRepeat, faCircleInfo, faAngleDoubleRight, faEye, faSync, faProjectDiagram, faCogs, faShareAlt, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faSync } from '@fortawesome/free-solid-svg-icons';
 import openCV from './images/open_cv.png'
 import dataVisualization from './images/data_visualization.jpg'
 import computerVision from './images/computer_vision.png'
@@ -48,13 +48,14 @@ import bhashyam from './images/education/biit.png';
 import github from './images/github.png';
 import gmail from './images/gmail.png';
 import linkedin from './images/linkedin.png';
-import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import resume from './images/cv.png';
 import django from './images/django.png';
 import eda from "./images/data-cleaning.png";
 import translate from './images/translate.png';
-import nlp from './images/natural-language-processing (1).png'
+import nlp from './images/natural-language-processing (1).png';
+import heart from './images/day.png';
+import copyright from './images/copyright.png';
 
 
 function App() {
@@ -529,7 +530,34 @@ function App() {
 
         </StyledSkillsContainer>
 
-        <h6 style={{ textAlign: "center", color: "white", margin: "0", paddingBottom: "0.7em" }}>Designed by Revathi</h6>
+        {/* <StyledContactContainer>
+            <h1 backgroun>Contact me!</h1>
+
+            <Col style={{ marginLeft: "0.5em" }}>
+              <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
+              <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail} /></a>
+              <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
+            </Col>
+        </StyledContactContainer> */}
+        <StylesAboutCol style={{display: "flex", alignItems: "center", justifyContent: "center", marginTop: "5em"}}>
+              <Table>
+                <tbody>
+                  <tr>
+                    <StyledTableCell style={{ backgroundColor: "#272222" }}><p style={{ fontFamily: "'Trebuchet MS', sans-serif", fontWeight: "bold", fontSize: "2.5em", margin: "0", color: "#fff", textAlign: "center", }}>Contact Me!</p></StyledTableCell>
+                  </tr>
+                  <tr style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
+                  <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none", backgroundColor: "#272222" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
+                  <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none", backgroundColor: "#272222" }} ><Link src={gmail} /></a>
+                  <a href='https://github.com/Revathi7880' style={{ textDecoration: "none", backgroundColor: "#272222" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
+                  </tr>
+                  <tr>
+                  <h6 style={{ textAlign: "center", color: "white", margin: "0", paddingBottom: "0.7em", backgroundColor: "#272222", marginTop: "4em"  }}><img style = {{width: "1.5em", height: "1.5em", margin: "-0.2em 0.3em 0 0"}} src={copyright}/>Designed by Revathi<img style = {{width: "1.8em", height: "1.8em", margin: "-0.4em 0 0 0.2em"}} src={heart}/></h6>
+                  </tr>
+                </tbody>
+              </Table>
+          </StylesAboutCol>
+
+        {/* <h6 style={{ textAlign: "center", color: "white", margin: "0", paddingBottom: "0.7em" }}>Designed by Revathi</h6> */}
       </div>
     </>
   );
