@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css",
-    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.bfc2060e.js",
+    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.fcac4c92.js",
     "static/media/machine_learning.png": "/RevathiGollapudi_Portfolio/static/media/machine_learning.9137a0db355e8f8ceb17.png",
     "static/media/computer_vision.png": "/RevathiGollapudi_Portfolio/static/media/computer_vision.fa808369ab7e5fd72620.png",
     "static/media/normalization.png": "/RevathiGollapudi_Portfolio/static/media/normalization.aeac2707ad7fef963a9d.png",
@@ -17,8 +17,8 @@
     "static/media/indexing.png": "/RevathiGollapudi_Portfolio/static/media/indexing.9c5505055f72490ba29c.png",
     "static/media/letter-c.png": "/RevathiGollapudi_Portfolio/static/media/letter-c.ca323b325816f40cf155.png",
     "static/media/Tableau.png": "/RevathiGollapudi_Portfolio/static/media/Tableau.53e635681fd0b411b0bc.png",
+    "static/media/cv.png": "/RevathiGollapudi_Portfolio/static/media/cv.d9b095e0d928a9e69764.png",
     "static/media/git.png": "/RevathiGollapudi_Portfolio/static/media/git.985a7327fc7347ebdba0.png",
-    "static/media/cv.png": "/RevathiGollapudi_Portfolio/static/media/cv.e4ec3a748f1aa7024f43.png",
     "static/media/java.png": "/RevathiGollapudi_Portfolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/c-sharp.png": "/RevathiGollapudi_Portfolio/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
     "static/media/node-js.png": "/RevathiGollapudi_Portfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
@@ -44,10 +44,10 @@
     "static/media/day.png": "/RevathiGollapudi_Portfolio/static/media/day.e37715af149aec3e7713.png",
     "index.html": "/RevathiGollapudi_Portfolio/index.html",
     "main.6e8b1f8e.css.map": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css.map",
-    "main.bfc2060e.js.map": "/RevathiGollapudi_Portfolio/static/js/main.bfc2060e.js.map"
+    "main.fcac4c92.js.map": "/RevathiGollapudi_Portfolio/static/js/main.fcac4c92.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8b1f8e.css",
-    "static/js/main.bfc2060e.js"
+    "static/js/main.fcac4c92.js"
   ]
 }
