@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css",
-    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.fcac4c92.js",
+    "main.js": "/RevathiGollapudi_Portfolio/static/js/main.ef4495db.js",
     "static/media/machine_learning.png": "/RevathiGollapudi_Portfolio/static/media/machine_learning.9137a0db355e8f8ceb17.png",
     "static/media/computer_vision.png": "/RevathiGollapudi_Portfolio/static/media/computer_vision.fa808369ab7e5fd72620.png",
     "static/media/normalization.png": "/RevathiGollapudi_Portfolio/static/media/normalization.aeac2707ad7fef963a9d.png",
@@ -44,10 +44,10 @@
     "static/media/day.png": "/RevathiGollapudi_Portfolio/static/media/day.e37715af149aec3e7713.png",
     "index.html": "/RevathiGollapudi_Portfolio/index.html",
     "main.6e8b1f8e.css.map": "/RevathiGollapudi_Portfolio/static/css/main.6e8b1f8e.css.map",
-    "main.fcac4c92.js.map": "/RevathiGollapudi_Portfolio/static/js/main.fcac4c92.js.map"
+    "main.ef4495db.js.map": "/RevathiGollapudi_Portfolio/static/js/main.ef4495db.js.map"
   },
   "entrypoints": [
     "static/css/main.6e8b1f8e.css",
-    "static/js/main.fcac4c92.js"
+    "static/js/main.ef4495db.js"
   ]
 }
