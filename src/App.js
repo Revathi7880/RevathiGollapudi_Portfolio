@@ -453,7 +453,7 @@ function App() {
                     <ul>
                       <li><text>Computer Science</text></li>
                       <li><text ><i>August 2023 - December 2024</i></text></li>
-                      <li><text ><i>GPA - 3.87</i></text></li>
+                      <li><text ><i>GPA - 3.85</i></text></li>
                     </ul>
                   </CardText>
                 </CardBody>
