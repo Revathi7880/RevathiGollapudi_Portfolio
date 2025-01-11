@@ -98,7 +98,7 @@ function App() {
                 <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
                 <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail} /></a>
                 <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
-                <a href='https://drive.google.com/file/d/1_pS6RU7g7HRaWvF1DqmfflBPjV0aRV7_/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
+                <a href='https://drive.google.com/file/d/1BQ1exDY6mOUO05Hgqzs_Vcu2j5bmneaT/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
               </Col>
             </StylesAboutCol>
 
