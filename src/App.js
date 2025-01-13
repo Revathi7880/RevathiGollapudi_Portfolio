@@ -84,7 +84,7 @@ function App() {
                   <tr>
                     <StyledTableCell style={{ backgroundColor: "#272222" }}>
                       <p style={{ fontFamily: "'Poppins', sans-serif", fontSize: "0.9em", margin: "0", color: "#fff" }}>
-                        I’m a computer science graduate student with over 2 years of experience in software development.
+                        I’m a computer science graduate student with over 3 years of experience in software development.
                         I’m passionate about using technology to create impactful solutions and always eager to expand my skills in software and data-driven environments.
                       </p>
                     </StyledTableCell>
