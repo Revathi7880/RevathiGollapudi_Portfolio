@@ -84,7 +84,7 @@ function App() {
                   <tr>
                     <StyledTableCell style={{ backgroundColor: "#272222" }}>
                       <p style={{ fontFamily: "'Poppins', sans-serif", fontSize: "0.9em", margin: "0", color: "#fff" }}>
-                        I’m a computer science graduate student with over 3 years of experience in software development.
+                        I’m a computer science graduate student with over 3+ years of experience in software development.
                         I’m passionate about using technology to create impactful solutions and always eager to expand my skills in software and data-driven environments.
                       </p>
                     </StyledTableCell>
@@ -98,7 +98,7 @@ function App() {
                 <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
                 <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail} /></a>
                 <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
-                <a href='https://drive.google.com/file/d/1BQ1exDY6mOUO05Hgqzs_Vcu2j5bmneaT/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
+                <a href='https://drive.google.com/file/d/145dvsUnLCuGmHKWe--4JmSHc5fLbQZNl/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
               </Col>
             </StylesAboutCol>
 
@@ -117,27 +117,29 @@ function App() {
             <StyledCard bg="dark" text="white" style={{ borderRadius: '1em' }}>
               <CardHeader as="h4" style={{ borderBottom: "3px solid #138fb633" }}>Sumitomo</CardHeader>
               <CardBody>
-                <CardTitle as="h5">Student Support Intern</CardTitle>
+                <CardTitle as="h5">Software Engineer Intern</CardTitle>
                 <CardTitle as="h6"><i>May 2024 - December 2024</i></CardTitle>
                 <CardText>
                   <ul>
                     <li>
-                      Developed and implemented over 10 dynamic forms with React for the frontend and Node.js for the backend,
-                      ensuring seamless data management with MSSQL Server using Sequelize and SQL.
+                    Collaborated with cross-functional teams to implement an end-to-end software solution for over 1,300 employees, integrating
+                    MSSQL, authentication mechanism, admin dashboard, and task manager, boosting performance and production.
                     </li>
                     <li>
-                      Designed and managed complete form workflows, including creation, updates, closures, printing, tracking, emailing,
-                      and integration of digital signatures.
+                    Engineered a full-stack React-based portal with JavaScript and Node.js to streamline form workflows, incorporating features
+                    like digital signatures, formatted printing, email notifications, and tracking, enhancing operational efficiency by 30%.
                     </li>
                     <li>
-                      Built and maintained RESTful APIs to ensure smooth communication between front-end and back-end components.
+                    Developed 25+ RESTful APIs using Node.js for Backend to facilitate seamless communication between the front-end and
+                    MSSQL database, ensuring reliable and efficient data exchange.
                     </li>
                     <li>
-                      Utilized Git for version control to ensure code integrity and foster collaboration within the development team.
+                    Created interactive Tableau dashboards delivering actionable business insights, resulting in a 20% reduction in quality issues,
+                    and utilized Git to maintain code integrity, Version Control and foster collaboration.
                     </li>
                     <li>
                       Transitioned from a manual Excel-based system to a fully electronic platform,
-                      increasing form workflow speed by 50% and improving data accuracy by 60%.
+                      increasing form workflow speed by 30% and improving data accuracy by 20%.
                     </li>
                   </ul>
                 </CardText>
@@ -148,26 +150,23 @@ function App() {
               <CardHeader as="h4" style={{ borderBottom: "3px solid #138fb633" }}>Deloitte</CardHeader>
               <CardBody>
                 <CardTitle as="h5">Analyst</CardTitle>
-                <CardTitle as="h6"><i>June 2021 - July 2023</i></CardTitle>
+                <CardTitle as="h6"><i>June 2021 - August 2023</i></CardTitle>
                 <CardText>
                   <ul>
                     <li>
-                      Reduced production issues by 10% through strategic bug resolution and code enhancements in C#, improving overall system stability.
+                    Collaborated with teams to enable cross-platform data integration using SharePoint API with CSOM in .NET using C#,
+                    efficiently extracting and organizing tax-related data for 10,000+ clients and 25,000+ files per client from SharePoint Online.
                     </li>
                     <li>
-                      Achieved 100% automation of data processing workflows by implementing Azure Functions in C# within Visual Studio IDE,
-                      streamlining operations and boosting efficiency
+                    Devised and implemented innovative solutions using MSSQL to retrieve client data and store extraction information, reducing
+                    manual entry and retrieval time by over 20 hours per week and enhancing overall efficiency.
                     </li>
                     <li>
-                      Enhanced cross-platform data integration by integrating SharePoint API with REST API and CSOM,
-                      resulting in more reliable and efficient data exchanges.
+                    Optimized database performance by writing 15+ stored procedures and 50+ SQL queries, ensuring faster data retrieval.
                     </li>
                     <li>
-                      Optimized database performance by developing and deploying 20+ stored procedures and executing 50+ advanced SQL queries,
-                      leading to faster data retrieval and processing.
-                    </li>
-                    <li>
-                      Resolved over 100 ServiceNow tickets, ensuring timely issue resolution and contributing to consistent project timelines and improved client satisfaction.
+                    Resolved 100+ ServiceNow tickets, earning the ’You Are GEM’ award for excellence, and reduced production issues by 10%
+                    through strategic bug fixes in C# and .NET, enhancing system reliability.
                     </li>
                   </ul>
                 </CardText>
@@ -177,15 +176,19 @@ function App() {
             <StyledCard bg="dark" text="white" style={{ borderRadius: '1em' }}>
               <CardHeader as="h4" style={{ borderBottom: "3px solid #138fb633" }}>Deloitte</CardHeader>
               <CardBody>
-                <CardTitle as="h5">Intern</CardTitle>
-                <CardTitle as="h6"><i>January 2021 - March 2021</i></CardTitle>
+                <CardTitle as="h5">Associate Analyst</CardTitle>
+                <CardTitle as="h6"><i>January 2021 - May 2021</i></CardTitle>
                 <CardText>
                   <ul>
                     <li>
-                      Received comprehensive training in C# and the .NET framework, enhancing proficiency in software development
+                    Gained hands-on experience in C# and .NET, focusing on efficient and maintainable code development.
                     </li>
                     <li>
-                      Gained knowlegde and training in Agile methodologies and project management principles
+                    Practiced Agile methodologies while collaborating with a team to build a full-stack project using C#, .NET, and SQL.s
+                    </li>
+                    <li>
+                    Led project development and presented the final solution to channel heads, showcasing functionality and skills acquired
+                    during the internship.
                     </li>
                   </ul>
                 </CardText>
