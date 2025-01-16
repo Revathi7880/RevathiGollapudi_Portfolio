@@ -98,7 +98,7 @@ function App() {
                 <a href='https://www.linkedin.com/in/revathi-gollapudi-a60894187/' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={linkedin} /></a>
                 <a href='mailto:revathigollapudi15@gmail.com' style={{ textDecoration: "none" }} ><Link src={gmail} /></a>
                 <a href='https://github.com/Revathi7880' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={github} /></a>
-                <a href='https://drive.google.com/file/d/145dvsUnLCuGmHKWe--4JmSHc5fLbQZNl/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
+                <a href='https://drive.google.com/file/d/1dG5RreByvuR50WvFyCKpNJ9ttaSC6hsv/view?usp=drive_link' style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer"><Link src={resume} /></a>
               </Col>
             </StylesAboutCol>
 
@@ -134,8 +134,8 @@ function App() {
                     MSSQL database, ensuring reliable and efficient data exchange.
                     </li>
                     <li>
-                    Created interactive Tableau dashboards delivering actionable business insights, resulting in a 20% reduction in quality issues,
-                    and utilized Git to maintain code integrity, Version Control and foster collaboration.
+                    Created interactive Tableau dashboards delivering actionable business insights, resulting in a 20% reduction in quality issues, 
+                    and utilized Git to maintain code integrity, version control, and foster collaboration.
                     </li>
                     <li>
                       Transitioned from a manual Excel-based system to a fully electronic platform,
